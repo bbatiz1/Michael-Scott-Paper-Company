@@ -1,0 +1,32 @@
+.body {
+  font-family: helvetica;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  border: double;
+
+}
+#grid {
+  display: grid;
+  grid-template: 3, 50px;
+  grid-gap: 5.3px;
+  position: left;
+  border: double;
+
+}
+
+#grid div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 2em;
+
+
+
+}
+#grid div a:hover:not(.active){
+  background-color: red;
+  color: #fff;
+}
